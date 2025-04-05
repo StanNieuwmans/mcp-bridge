@@ -76,8 +76,8 @@ Claude Desktop
             │
             ▼ (STDIO)
 [ MCP Bridge (cli.ts) ]
-            ▲
             │ (SSE + POST)
+            ▼
 Your MCP Backend (McpServer)
 ```
 

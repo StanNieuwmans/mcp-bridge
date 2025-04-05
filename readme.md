@@ -17,6 +17,7 @@ This enables Claude to talk to modern MCP servers that expose an HTTP API using 
 
 ## 🗂️ Folder Structure
 
+```plaintext
 mcp-bridge/
 ├── cli.ts               # 🧠 Main entry point (runs the bridge logic)
 ├── package.json         # 📦 Project metadata and dependencies
@@ -24,6 +25,7 @@ mcp-bridge/
 ├── util/
 │   └── McpJsonRpcClient.ts  # 🔧 Utility class for making JSON-RPC requests
 └── README.md            # 📖 Project documentation
+```
 
 ---
 

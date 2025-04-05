@@ -4,7 +4,7 @@ import { EventSource } from "eventsource";
 // -- Configuration ----------------------------------
 
 let baseUrl: string =
-  process.argv[2] ?? process.env["MCP_URL"] ?? "http://localhost:8808";
+  process.argv[2] ?? process.env["MCP_URL"] ?? "http://localhost:4000";
 
 if (!baseUrl.startsWith("http")) baseUrl = `http://${baseUrl}`;
 baseUrl = baseUrl.replace(/\/$/, "");

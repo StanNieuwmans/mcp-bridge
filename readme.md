@@ -115,3 +115,7 @@ DEBUG=1 npx tsx cli.ts http://localhost:4000
 - ❌ **Permission denied** → Run `chmod +x cli.ts`
 - ❌ **Unknown file extension `.ts`** → Make sure you're using `tsx` or `ts-node`
 - ❌ **Claude can't connect** → Check `mcpServers` config and stdout/stderr logs
+
+
+## Credits: 
+[boilingdata/mcp-server-and-gw](https://github.com/boilingdata/mcp-server-and-gw/tree/main)
